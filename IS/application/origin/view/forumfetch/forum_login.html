@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-论坛</title>
+<script type="text/javascript">
+	var type_selecter=$.cookie('forum_type');
+	$().ready(function(){
+  		$("#press").click(function(){
+			var name=$("#name").val();
+			var myid=$("#id").val();
+			var password=$("#password").val();
+  			$.ajax({
+				url:"{:url('origin/forum/login')}",
+	  			async:true,
+				type:'post',
+				dataType:'json',
+				data:{
+					name:name,
+					myid:myid,
+					password:password
+				},
+				success(res){
+					if(res.status==0){
+						document.cookie="id="+res.user.id;
+						document.cookie="name="+res.user.name;
+						document.cookie="classes="+res.user.classes;
+						document.cookie="myid="+res.user.myid;
+						document.cookie="status="+res.status;
+						document.cookie="rand_num="+res.user.rand_num;
+						document.cookie="user_type="+res.user.type;
+						if(type_selecter=="index"){
+							setTimeout("location.href='/IS/public/forum'");//登录成功跳转至论坛界面
+						}else if(type_selecter=="write"){
+							setTimeout("location.href='/IS/public/arctic_write'");//登录成功跳转至论坛文章书写
+						}
+					}else if(res.status==1){
+						alert("姓名或学号错误！");
+					}else if(res.status==2){
+						alert("填写为空！");
+					}
+				}
+			});
+  		});
+	});
+	function go(){
+		setTimeout("location.href='/IS/public/Register'");//注册
+	}
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/forum.jpg" data-stellar-background-ratio="1.15">
+		<div class="container">
+			<h1>登录</h1>
+			<p>Login</p>
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>登录</a></li>
+    			<li class="breadcrumb-item active" aria-current="page">Login</li>
+  			</ol>
+		</div>
+	</header>
+	<section class="faq">
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+        		<div class="col-lg-6">
+        			<div class="contact-form">	
+			 			<form id="contact" name="contact" method="post">
+          					<div class="form-group">
+            					<input type="text" name="name" id="name" autocomplete="off" required>
+             					<span>用户名</span>
+          					</div>
+          					<div class="form-group"> 
+            					<input type="text" name="password" id="password" autocomplete="off" required>
+            					<span>密码</span>
+          					</div>
+							<div class="form-group">
+								<input type="text" name="id" id="id" autocomplete="off" required>
+            					<span>学号</span>
+          					</div>
+          					<button id="press" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+			  					<i class="icon-arrow-right pull-right"></i>
+								<span class="m-r-n-lg">登录</span>
+							</button>
+							<small>没有账号？快注册一个！</small>
+							<button onClick="go()" class="btn btn-lg btn-danger lt b-white b-2x btn-block btn-rounded">
+			  					<i class="icon-arrow-right pull-right"></i>
+								<span class="m-r-n-lg">注册</span>
+							</button>
+        				</form>
+        			</div>
+        		</div>
+				<div class="col-lg-4">
+					<aside class="sidebox">
+						<i class="fas fa-question-circle"></i>
+						<h3>有疑问？</h3>
+						<p>如果有疑问，请联系超级管理员Shane</p>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</section>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>

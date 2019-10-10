@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-自律委查勤系统</title>
+<script type="text/javascript">
+	var seed=$.cookie();
+	$().ready(function(){
+		if(seed.status!=200){
+			document.cookie="SDC_type=index";
+			setTimeout("location.href='/IS/public/LoginSDC'");//跳转登录
+		}else{
+			document.cookie = "SDC_type=''; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			var a=$("<h4>你好："+seed.name+"</h4>");
+            a.appendTo("#a");
+			var b=$("<small><a href='' id='quit'>退出登录</a></small>");
+            b.appendTo("#a");
+		}
+	});
+	$().ready(function(){
+		$().ready(function(){
+			var url = location.search; //获取url中"?"符后的字串  
+			url=decodeURI(url);
+   			var theRequest = new Object();  
+			if (url.indexOf("?") != -1) {  
+				var str = url.substr(1);  
+				strs = str.split("&");  
+      			for(var i = 0; i < strs.length; i ++) {  
+					theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);  
+      			}  
+			}  
+			var creed_name=theRequest.name;
+			var creed_myid=theRequest.myid;
+			var creed_classes=theRequest.classes;
+			var cre_name=$("<option value="+creed_name+">"+creed_name+"</option>");
+            cre_name.appendTo("#name");
+			var cre_myid=$("<option value="+creed_myid+">"+creed_myid+"</option>");
+            cre_myid.appendTo("#myid");
+			var cre_classes=$("<option value="+creed_classes+">"+creed_classes+"</option>");
+            cre_classes.appendTo("#classes");
+		});
+  		$("#press").click(function(){
+			var name=$("#name").val();
+			var myid=$("#myid").val();
+			var classes=$("#classes").val();
+			var is_afl=$("#is_afl").val();
+			var ps=$("#ps").val();
+			var judge=seed.name;
+  			$.ajax({
+				url:"{:url('origin/sdc/insert_absent')}",
+	  			async:true,
+				type:'post',
+				dataType:'json',
+				data:{
+					name:name,
+					myid:myid,
+					classes:classes,
+					is_afl:is_afl,
+					ps:ps,
+					judge:judge
+				},
+				success(res){
+					if(res==0){
+						alert("记录成功！");
+						setTimeout("location.href='/IS/public/SDC'");//成功后跳转回
+					}else if(res==1){
+						var warn=$("<div class='alert alert-warning alert-dismissible' role='alert'> <button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><strong>警告！</strong>请填写完整！</div>");
+            			warn.appendTo("#warn");
+					}else if(res==2){
+						var warn=$("<div class='alert alert-warning alert-dismissible' role='alert'> <button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button><strong>警告！</strong>请在早7:00-8:00，晚7:00-8:00查勤！</div>");
+            			warn.appendTo("#warn");
+					}
+				}
+			});
+  		});
+	});
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/SDC.jpg" data-stellar-background-ratio="1.15">
+		<div class="container">
+			<h1>查勤系统</h1>
+			<p>Check Presence</p>
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>查勤</a></li>
+    			<li class="breadcrumb-item active" aria-current="page"><a href="/IS/public/SDC">返回</a></li>
+  			</ol>
+		</div>
+	</header>
+	<!--报名-->
+	<section class="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="accordion" id="accordion" role="tablist">
+            			<div class="card">
+              				<div class="card-header" role="tab" id="headingOne"> 
+								<a id="strong" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<!--名字放这里-->
+								</a> 
+							</div>
+              				<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                				<div class="card-body"> 
+									<section class="contact">
+  										<div class="container">
+    										<div class="row align-items-center">
+        										<div class="col-lg-6">
+        											<div class="contact-form">	
+			 											<form id="contact" name="contact" method="post">
+          													<div class="form-group">
+																<select id="name" class="form-control rounded input-lg text-center no-border">
+    															</select>
+          													</div>
+															<div class="form-group">
+																<select id="myid" class="form-control rounded input-lg text-center no-border">
+    															</select>
+          													</div>
+          													<div class="form-group">
+																<select id="classes" class="form-control rounded input-lg text-center no-border">
+    															</select>
+          													</div>
+															<div class="form-group">
+            													<select id="is_afl" class="form-control rounded input-lg text-center no-border">
+																	<option value="">是否有假条</option>
+																	<option value="无">无</option>
+																	<option value="有">有</option>
+    															</select>
+          													</div>
+															<div class="form-group">
+																<textarea name="ps" id="ps" autocomplete="on" required>未到</textarea>
+            													<span>备注</span>
+          													</div>
+															<button id="press" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+			  														<i class="icon-arrow-right pull-right"></i>
+																	<span class="m-r-n-lg">确认</span>
+															</button>
+        												</form>
+        											</div>
+													<div class="contact-form" id="warn">	
+			 												
+        											</div>
+        										</div>
+   											</div> 
+  										</div> 
+									</section>
+								</div>
+              				</div>
+            			</div> 
+          			</div>
+				</div>
+				<div class="col-lg-4">
+					<aside class="sidebox">
+						<i class="fas fa-question-circle"></i>
+						<h3>有疑问？</h3>
+						<p>如果有疑问，请联系超级管理员Shane</p>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/报名-->
+	{include file="public/foot" /}
+</body>
+</html>

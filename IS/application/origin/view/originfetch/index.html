@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-综合测评</title>
+<script type="text/javascript">
+	//监测是否登录
+	var seed=$.cookie();
+	$().ready(function(){
+		if(seed.status!=100){
+			//没有登录跳转
+			document.cookie="login_type=index";
+			setTimeout("location.href='/IS/public/login_ZC'");//跳转登录
+		}else{
+			document.cookie = "login_type=''; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			var a=$("<h4>你好："+seed.name+"</h4>");
+            a.appendTo("#a");
+			var b=$("<small><a href='' id='quit'>退出登录</a></small>");
+            b.appendTo("#a");
+		}
+	});
+	$().ready(function(){
+		$("#quit").click(function(){
+			document.cookie="login_type=index";
+			document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "myid=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "classes=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "status=1; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			setTimeout("location.href='/IS/public/login_ZC'");//跳转登录
+  		});
+	});
+	/*显示从后端返回的数据*/
+	var name=seed.name;
+	var myid=seed.myid;
+	var classes=seed.classes;
+	$().ready(function(){
+  		$.ajax({
+			url:"{:url('origin/origin/show')}",
+	  		async:false,
+			dataType:'json',
+			data:{
+				name:name,
+				myid:myid,
+				classes:classes
+			},
+			success(res){
+				for(var i=1;i<=res.len;i++){
+					if(res.data[i][0]["zc"+myid]!=null){
+						var div=$("<div class='col-lg-4 col-md-6'></div>");
+            			div.appendTo("#c");
+						var figure=$("<figure></figure>");
+            			figure.appendTo(div);
+						var img=$("<img src='/IS/public/static/images/services-icon08.png' alt='Image'>");
+            			img.appendTo(figure);
+						var name=$("<figcaption><h5><a>"+res.data[i][0].name+"</a></h5></figcaption>");
+            			name.appendTo(figure);
+						var icon=$("<i class='fa fa-check text-active'></i>");
+            			icon.appendTo(figure);
+					}else{
+						var div=$("<div class='col-lg-4 col-md-6'></div>");
+            			div.appendTo("#c");
+						var figure=$("<figure></figure>");
+            			figure.appendTo(div);
+						var img=$("<img src='/IS/public/static/images/services-icon08.png' alt='Image'>");
+            			img.appendTo(figure);
+						var name=$("<figcaption><h5><a href='/IS/public/score_ZC?id="+res.data[i][0].myid+"'>"+res.data[i][0].name+"</a></h5></figcaption>");
+            			name.appendTo(figure);
+					}
+				}
+			}
+		});
+	});
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/ZC.jpg" data-stellar-background-ratio="1.15">
+		<div class="container">
+			<h1>综合测评</h1>
+			<p>Comprehensive evaluation</p>
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>综测</a></li>
+    			<li class="breadcrumb-item active" aria-current="page">CE</li>
+  			</ol>
+		</div>
+	</header>
+	<section class="facilities">
+  		<div class="container">
+    		<div class="row" id="c">
+				<!--整个班级-->
+			</div>
+  		</div>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>

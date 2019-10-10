@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-技术讨论</title>
+<script type="text/javascript">
+	//监测是否登录
+	var seed=$.cookie();
+	$().ready(function(){
+		if(seed.status!=0){
+			//没有登录跳转
+			document.cookie="forum_type=index";
+			var a=$("<small><a href='/IS/public/forum_login'>登录</a></small>");
+            a.appendTo("#a");
+		}else{
+			document.cookie = "forum_type=''; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			var a=$("<h4>你好："+seed.name+"&nbsp;&nbsp;"+seed.user_type+"</h4>");
+            a.appendTo("#a");
+			var b=$("<small><a href='' id='quit'>退出登录</a></small>");
+            b.appendTo("#a");
+		}
+	});
+	$().ready(function(){
+  		$.ajax({
+			url:"{:url('origin/forum/index')}",
+	  		async:true,
+			type:'post',
+			dataType:'json',
+			success(res){
+				for(var i=0;i<res.length;i++){
+					var option=$("<div class='col-lg-4 col-md-6 wow fadeInUp'><figure><a href='"+res[i].link+"'><img width='70' height='25' src='/IS/public"+res[i].imgavatar+"' alt='Image'></a><figcaption><a href='"+res[i].link+"'><h5>"+res[i].module+"</h5></a><p>"+res[i].description+"</p></figcaption></figure></div>");
+					option.appendTo("#forum_module");
+				}
+			}
+		});
+		$("#quit").click(function(){
+			document.cookie="forum_type=index";
+			document.cookie = "id=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "myid=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "classes=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "status=1; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "rand_num=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "user_type=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			setTimeout("location.href='/IS/public/forum_login'");//跳转登录
+  		});
+	});
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/forum.jpg" data-stellar-background-ratio="1.15">
+		<div class="container">
+			<h1>论坛</h1>
+			<p>Forum</p>
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>论坛</a></li>
+    			<li class="breadcrumb-item active" aria-current="page"><a href="/IS/public/arctic_write">写文章</a></li>
+  			</ol>
+		</div>
+	</header>
+	<section class="facilities">
+		<div class="container">
+			<div class="row" id="forum_module">
+				<!--在这里放板块-->
+			</div>
+		</div>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>

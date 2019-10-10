@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-综合测评</title>
+<script type="text/javascript">
+	var type_selecter=$.cookie('login_type');
+	$().ready(function(){
+  		$("#press").click(function(){
+			var name=$("#name").val();
+			var myid=$("#id").val();
+			var classes=$("#classes").val();
+  			$.ajax({
+				url:"{:url('origin/origin/login')}",
+	  			async:true,
+				type:'post',
+				dataType:'json',
+				data:{
+					name:name,
+					myid:myid,
+					classes:classes
+				},
+				success(res){
+					if(res.status==100){
+						document.cookie="name="+res.user.name;
+						document.cookie="classes="+classes;
+						document.cookie="myid="+res.user.myid;
+						document.cookie="status="+res.status;
+						if(type_selecter=="index"){
+							setTimeout("location.href='/IS/public/origin'");//登录成功跳转至综合测评界面
+						}else if(type_selecter=="indexpk"){
+							setTimeout("location.href='/IS/public/origin_PK'");//登录成功跳转至贫困生测评界面
+						}else if(type_selecter=="indexbw"){
+							setTimeout("location.href='/IS/public/origin_BW'");//登录成功跳转至班委测评界面
+						}else if(type_selecter=="signpk"){
+							setTimeout("location.href='/IS/public/sign_PK'");//登录成功跳转至贫困生报名测评界面
+						}
+					}else if(res.status==1){
+						alert("姓名或学号或班级错误！");
+					}else if(res.status==2){
+						alert("填写为空！");
+					}
+				}
+			});
+  		});
+	});
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/ZC.jpg" data-stellar-background-ratio="1.15">
+		<div class="container">
+			<h1>登录</h1>
+			<p>目前仅对18计科一二三班以及18通信工程开放</p>
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>登录</a></li>
+    			<li class="breadcrumb-item active" aria-current="page">Login</li>
+  			</ol>
+		</div>
+	</header>
+	<section class="faq">
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+        		<div class="col-lg-6">
+        			<div class="contact-form">	
+			 			<form id="contact" name="contact" method="post">
+          					<div class="form-group">
+            					<input type="text" name="name" id="name" autocomplete="off" required>
+             					<span>姓名</span>
+          					</div>
+          					<div class="form-group"> 
+            					<input type="text" name="id" id="id" autocomplete="off" required>
+            					<span>学号</span>
+          					</div>
+							<div class="form-group">
+								<select id="classes" class="form-control rounded input-lg text-center no-border">
+      								<option>请选择班级</option>
+      								<option value="1801">18计科一班</option>
+      								<option value="1802">18计科二班</option>
+      								<option value="1803">18计科三班</option>
+      								<option value="1804">18通信工程</option>
+    							</select>
+          					</div>
+          					<button id="press" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+			  					<i class="icon-arrow-right pull-right"></i>
+								<span class="m-r-n-lg">登录</span>
+							</button>
+        				</form>
+        			</div>
+        		</div>
+				<div class="col-lg-4">
+					<aside class="sidebox">
+						<i class="fas fa-question-circle"></i>
+						<h3>有疑问？</h3>
+						<p>如果有疑问，请联系超级管理员Shane</p>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</section>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>

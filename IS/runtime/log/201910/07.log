@@ -1,0 +1,111 @@
+---------------------------------------------------------------
+[ 2019-10-07T09:14:40+08:00 ] 127.0.0.1 GET localhost/IS/public/
+[运行时间：2.981489s] [吞吐率：0.34req/s] [内存消耗：3,429.63kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.024661s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.079101s ]
+[ info ] [ LANG ] D:\AppServ\www\IS\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3819.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9677264896',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.046485s ]
+[ info ] [ RUN ] app\origin\controller\Index->index[ D:\AppServ\www\IS\application\origin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www\IS\public/../application/origin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.099375s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.155733s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('127.0.0.1' , '2019-10-07 09:14:39' , '综合系统主页') [ RunTime:0.061612s ]
+---------------------------------------------------------------
+[ 2019-10-07T09:17:25+08:00 ] 127.0.0.1 GET localhost/IS/public/
+[运行时间：0.203233s] [吞吐率：4.92req/s] [内存消耗：3,429.62kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004874s ]
+[ info ] [ LANG ] D:\AppServ\www\IS\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3819.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9677264896',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006436s ]
+[ info ] [ RUN ] app\origin\controller\Index->index[ D:\AppServ\www\IS\application\origin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www\IS\public/../application/origin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002200s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.002316s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('127.0.0.1' , '2019-10-07 09:17:25' , '综合系统主页') [ RunTime:0.067873s ]
+---------------------------------------------------------------
+[ 2019-10-07T09:18:32+08:00 ] 127.0.0.1 GET localhost/IS/public/
+[运行时间：0.212411s] [吞吐率：4.71req/s] [内存消耗：3,194.71kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006070s ]
+[ info ] [ LANG ] D:\AppServ\www\IS\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3819.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9677264896',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005580s ]
+[ info ] [ RUN ] app\origin\controller\Index->index[ D:\AppServ\www\IS\application\origin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\AppServ\www\IS\public/../application/origin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001861s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.002553s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('127.0.0.1' , '2019-10-07 09:18:31' , '综合系统主页') [ RunTime:0.087619s ]

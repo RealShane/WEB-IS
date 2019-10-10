@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-论坛</title>
+<script type="text/javascript">
+	//监测是否登录
+	var seed=$.cookie();
+	$().ready(function(){
+		if(seed.status!=0){
+			document.cookie="forum_type=index";
+			var a=$("<small><a href='/IS/public/forum_login'>登录</a></small>");
+            a.appendTo("#a");
+		}else{
+			document.cookie = "forum_type=''; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			var a=$("<h4>你好："+seed.name+"&nbsp;&nbsp;"+seed.user_type+"</h4>");
+            a.appendTo("#a");
+			var b=$("<small><a href='' id='quit'>退出登录</a></small>");
+            b.appendTo("#a");
+		}
+	});
+	$().ready(function(){
+		var url = location.search; //获取url中"?"符后的字串  
+   		var theRequest = new Object();  
+		if (url.indexOf("?") != -1) {  
+			var str = url.substr(1);  
+			strs = str.split("&");  
+      		for(var i = 0; i < strs.length; i ++) {  
+				theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);  
+      		}  
+		}  
+		var creed=theRequest.id;
+		$.ajax({
+			url:"{:url('origin/forum/forum_list')}",
+	  		async:true,
+			type:'post',
+			dataType:'json',
+			data:{
+				id:creed
+			},
+			success(res){
+				var title=$("<h1>"+res.title+"</h1><p>"+res.p+"</p></figcaption></figure></div>");
+				title.appendTo("#title");
+				for(var i=0;i<res.list.length;i++){
+					var option=$("<div class='card'><div class='card-header' role='tab' id='headingFive'><a class='collapsed' data-toggle='collapse' href='#collapseFive' aria-expanded='false' aria-controls='collapseFive'>"+res["list"][i].titlecontent+"</a></div><div id='collapseFive' class='collapse' role='tabpanel' aria-labelledby='headingFive' data-parent='#accordion'><div class='card-body'><a href='"+res["list"][i].link+"'>"+res["list"][i].titlecontent+"</a></br>作者："+res["list"][i].author+"&nbsp;&nbsp;"+res["list"][i].user_type+"&nbsp;&nbsp;班级："+res["list"][i].classes+"&nbsp;&nbsp;发布时间："+res["list"][i].time+"</div></div></div>");
+					option.appendTo("#accordion");
+				}
+				
+			}
+		});
+		$("#quit").click(function(){
+			document.cookie="forum_type=index";
+			document.cookie = "id=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "myid=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "classes=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "status=1; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "rand_num=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "user_type=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			setTimeout("location.href='/IS/public/forum_login'");//跳转登录
+  		});
+	});
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/forum.jpg" data-stellar-background-ratio="1.15">
+		<div class="container" id="title">
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>文章列表</a></li>
+    			<li class="breadcrumb-item active" aria-current="page"><a href="/IS/public/forum">Back</a></li>
+  			</ol>
+		</div>
+	</header>
+	<section class="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="accordion" id="accordion" role="tablist">
+						
+          			</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>

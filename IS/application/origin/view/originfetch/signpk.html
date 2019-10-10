@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-综合测评</title>
+<script type="text/javascript">
+	//监测是否登录
+	var seed=$.cookie();
+	$().ready(function(){
+		if(seed.status!=100){
+			//没有登录跳转
+			document.cookie="login_type=signpk";
+			setTimeout("location.href='/IS/public/login_ZC'");//跳转登录
+		}else{
+			document.cookie = "login_type=''; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			var a=$("<h4>你好："+seed.name+"</h4>");
+            a.appendTo("#a");
+			var b=$("<small><a href='' id='quit'>退出登录</a></small>");
+            b.appendTo("#a");
+		}
+		$("#type_two").hide();
+		$("#type").click(function(){
+  			var type=$("#type").val();
+			if(type=="其他情况"){
+				$("#type_two").show();
+			}else{
+				$("#type_two").hide();
+			}
+		});
+	});
+	$().ready(function(){
+    	$().ready(function(){
+			$("#press").click(function(){
+				var name=seed.name;
+				var myid=seed.myid;
+				var classes=seed.classes;
+				var message=$("#message").val();
+				var type=$("#type").val();
+				var type_two=$("#type_two").val();
+				if(type_two!=""){
+					var type_final=type_two;
+				}else{
+					var type_final=type;
+				}
+				$("#type_two").val("");
+    			$.ajax({
+        			type:'post',
+					async:true,
+					url:"{:url('origin/origin/sign_pk')}",
+        			data:{
+						name:name,
+						myid:myid,
+						classes:classes,
+						message:message,
+						type:type_final
+					},
+					dataType:'json',
+					success:function(res){ 
+          				if(res==0){
+							alert("报名成功！");
+							setTimeout("location.href='/IS/public/'");//跳转
+						}else if(res==1){
+							alert("网络原因报名失败！");
+						}else if(res==2){
+							alert("请勿重复报名！");
+						}else if(res==3){
+							alert("人数已报满！");
+						}else if(res==4){
+							alert("信息禁止为空！");
+						}
+					},
+      			});
+			});
+		});
+		$("#quit").click(function(){
+			document.cookie="login_type=signpk";
+			document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "myid=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "classes=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "status=1; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			setTimeout("location.href='/IS/public/login_ZC'");//跳转登录
+  		});
+	});
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/ZC.jpg" data-stellar-background-ratio="1.15">
+		<div class="container">
+			<h1>贫困生报名</h1>
+			<p>Sign for impoverished student</p>
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>贫困生</a></li>
+    			<li class="breadcrumb-item active" aria-current="page">报名</li>
+  			</ol>
+		</div>
+	</header>
+	<section class="contact">
+	<section class="faq">
+  		<div class="container">
+    		<div class="row align-items-center">
+        		<div class="col-lg-6">
+        			<div class="contact-form">	
+			 			<form id="contact" name="contact" method="post">
+          					<div class="form-group"> 
+            					<textarea name="message" id="message" autocomplete="off" required></textarea>
+            					<span>你的情况</span>
+          					</div>
+							<small>如有其他情况或多项情况请选择其他情况，然后手动输入</small>
+							<div class="form-group"> 
+            					<select id="type" class="form-control rounded input-lg text-center no-border">
+      								<option value="无特殊情况">如有特殊情况请选择</option>
+      								<option value="建档立卡">建档立卡</option>
+      								<option value="单亲或孤儿">单亲或孤儿</option>
+      								<option value="本人残疾">本人残疾</option>
+      								<option value="直系亲属残疾">直系亲属残疾</option>
+      								<option value="本人重特大疾病">本人重特大疾病</option>
+      								<option value="直系亲属重特大疾病">直系亲属重特大疾病</option>
+      								<option value="其他情况">其他情况</option>
+    							</select>
+          					</div>
+							<div class="form-group"> 
+            					<textarea name="type_two" placeholder="请填写其他情况" id="type_two" autocomplete="off" required></textarea>
+          					</div>
+          					<button id="press" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+			  					<i class="icon-arrow-right pull-right"></i>
+								<span class="m-r-n-lg">报名</span>
+							</button>
+        				</form>
+        			</div>
+        		</div>
+				<div class="col-lg-4">
+					<aside class="sidebox">
+						<i class="fas fa-question-circle"></i>
+						<h3>有疑问？</h3>
+						<p>如果有疑问，请联系超级管理员Shane</p>
+					</aside>
+				</div>
+   			</div>
+  		</div>
+	</section>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>

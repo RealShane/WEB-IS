@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-时光邮箱</title>
+<script type="text/javascript">
+	//监测是否登录
+	var seed=$.cookie();
+	$().ready(function(){
+		if(seed.status!=0){
+			document.cookie="email_type=index";
+			var a=$("<small><a href=''>登录</a></small>");
+            a.appendTo("#a");
+		}else{
+			var a=$("<h4>你好："+seed.name+"&nbsp;&nbsp;"+seed.user_type+"</h4>");
+            a.appendTo("#a");
+			var b=$("<small><a href='' id='quit'>退出登录</a></small>");
+            b.appendTo("#a");
+		}
+	});
+	$().ready(function(){
+		var url = location.search; //获取url中"?"符后的字串  
+   		var theRequest = new Object();  
+		if (url.indexOf("?") != -1) {  
+			var str = url.substr(1);  
+			strs = str.split("&");  
+      		for(var i = 0; i < strs.length; i ++) {  
+				theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);  
+      		}  
+		}  
+		var creed=theRequest.id;
+		$.ajax({
+			url:"{:url('origin/poffice/letter_info')}",
+	  		async:true,
+			type:'post',
+			dataType:'json',
+			data:{
+				id:creed
+			},
+			success(res){
+				var bigtitle=$("<h1>"+res.title+"</h1><p>"+res.classes+"</p></figcaption></figure></div>");
+				bigtitle.appendTo("#bigtitle");
+				var title=$("<h2>"+res.title+"</h2>");
+				title.appendTo("#title");
+				var info=$("<small>寄信人："+res.name+"&nbsp;&nbsp;"+res.type+"</small>&nbsp;&nbsp;<small>班级："+res.classes+"</small>&nbsp;&nbsp;<small>发布寄信时间："+res.time+"</small>");
+				info.appendTo("#title");
+				var txt=$("<p>"+res.letter+"</p>");
+				txt.appendTo("#txt");
+			}	
+		});
+		$("#quit").click(function(){
+			document.cookie="email_type=index";
+			document.cookie = "id=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "myid=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "classes=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "status=1; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "rand_num=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "user_type=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			setTimeout("location.href='/IS/public/login_PO'");//跳转
+  		});
+	});
+	
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/time.jpg" data-stellar-background-ratio="1.15">
+		<div class="container" id="bigtitle">
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>信内容</a></li>
+    			<li class="breadcrumb-item active" aria-current="page"><a href="/IS/public/TimePoffice">Back</a></li>
+  			</ol>
+		</div>
+	</header>
+	<section class="about-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-12" id="title">
+					<!--文章标题-->
+					<!--作者-->
+					<!--班级-->
+					<!--时间-->
+				</div>
+     			<div class="col-12" id="txt">
+        			<br>
+       			</div>
+			</div>
+		</div>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>

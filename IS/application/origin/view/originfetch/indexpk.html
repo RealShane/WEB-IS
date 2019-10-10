@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-综合测评</title>
+<script type="text/javascript">
+	//监测是否登录
+	var seed=$.cookie();
+	$().ready(function(){
+		if(seed.status!=100){
+			//没有登录跳转
+			document.cookie="login_type=indexpk";
+			setTimeout("location.href='/IS/public/login_ZC'");//跳转登录
+		}else{
+			document.cookie = "login_type=''; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			var a=$("<h4>你好："+seed.name+"</h4>");
+            a.appendTo("#a");
+			var b=$("<small><a href='' id='quit'>退出登录</a></small>");
+            b.appendTo("#a");
+		}
+	});
+	$().ready(function(){
+    	$().ready(function(){
+			var name=seed.name;
+			var myid=seed.myid;
+			var classes=seed.classes;
+			var message=$("#message").val();
+    		$.ajax({
+        		type:'post',
+				async:true,
+				url:"{:url('origin/origin/showpk')}",
+        		data:{
+					name:name,
+					myid:myid,
+					classes:classes
+				},
+				dataType:'json',
+				success:function(res){
+					for(var i=1;i<=res.len;i++){
+						if(res.data[i][0]["zc"+myid]!=null){
+							var div=$("<div class='col-lg-4 col-md-6'></div>");
+            				div.appendTo("#c");
+							var figure=$("<figure></figure>");
+            				figure.appendTo(div);
+							var img=$("<img src='/IS/public/static/images/services-icon08.png' alt='Image'>");
+            				img.appendTo(figure);
+							var name=$("<figcaption><h5><a>"+res.data[i][0].name+"</a></h5></figcaption>");
+            				name.appendTo(figure);
+							var icon=$("<i class='fa fa-check text-active'></i>");
+            				icon.appendTo(figure);
+						}else{
+							var div=$("<div class='col-lg-4 col-md-6'></div>");
+            				div.appendTo("#c");
+							var figure=$("<figure></figure>");
+            				figure.appendTo(div);
+							var img=$("<img src='/IS/public/static/images/services-icon08.png' alt='Image'>");
+            				img.appendTo(figure);
+							var name=$("<figcaption><h5><a href='/IS/public/score_PK?id="+res.data[i][0].myid+"'>"+res.data[i][0].name+"</a></h5></figcaption>");
+            				name.appendTo(figure);
+						}
+					}
+				},
+      		});
+		});
+		$("#quit").click(function(){
+			document.cookie="login_type=indexpk";
+			document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "myid=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "classes=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "status=1; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			setTimeout("location.href='/IS/public/login_ZC'");//跳转登录
+  		});
+	});
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/ZC.jpg" data-stellar-background-ratio="1.15">
+		<div class="container">
+			<h1>贫困生测评</h1>
+			<p>Impoverished student evaluation</p>
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>贫困生</a></li>
+    			<li class="breadcrumb-item active" aria-current="page">测评</li>
+  			</ol>
+		</div>
+	</header>
+	<section class="facilities">
+  		<div class="container">
+    		<div class="row" id="c">
+				<!--整个班级-->
+			</div>
+  		</div>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>

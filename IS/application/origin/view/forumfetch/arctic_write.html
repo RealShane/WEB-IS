@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-技术讨论</title>
+<script type="text/javascript">
+	//监测是否登录
+	var seed=$.cookie();
+	$().ready(function(){
+		if(seed.status!=0){
+			document.cookie="forum_type=write";
+			setTimeout("location.href='/IS/public/forum_login'");//跳转登录
+		}else{
+			document.cookie = "forum_type=''; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			var a=$("<h4>你好："+seed.name+"&nbsp;&nbsp;"+seed.user_type+"</h4>");
+            a.appendTo("#a");
+			var b=$("<small><a href='' id='quit'>退出登录</a></small>");
+            b.appendTo("#a");
+		}
+		$.ajax({
+			url:"{:url('origin/forum/index')}",
+	  		async:true,
+			type:'post',
+			dataType:'json',
+			success(res){
+				for(var i=0;i<res.length;i++){
+           	 		var classes=$("<option value='"+res[i]["type"]+"'>"+res[i]["module"]+"</option>");
+					classes.appendTo("#type");
+				}
+			}	
+		});
+	});
+	$().ready(function(){
+		layui.use('layedit', function(){
+  			var layedit = layui.layedit;
+  			var index=layedit.build('txt',{
+				tool: [
+  					'strong',
+					'italic',
+					'underline',
+					'del',
+					'|',
+					'left',
+  					'center',
+  					'right',
+  					'link',
+					'unlink',
+					'face',
+					'help'
+				],
+				height:200,
+				width:200
+			});
+			$("#press").click(function(){
+				var name=seed.name;
+				var classes=seed.classes;
+				var title=$("#title").val();
+				var txt=layedit.getContent(index);
+				var type=$("#type").val();
+  				$.ajax({
+					url:"{:url('origin/forum/write')}",
+	  				async:true,
+					type:'post',
+					dataType:'json',
+					data:{
+						name:name,
+						classes:classes,
+						title:title,
+						txt:txt,
+						type:type
+					},
+					success(res){
+						if(res==0){
+							alert("提交成功！请等待超级管理员审核！");
+							setTimeout("location.href='/IS/public/forum'");//成功界面
+						}else{
+							alert("网络原因，提交失败！");
+						}
+					}
+				});
+  			});
+		});
+		$("#quit").click(function(){
+			document.cookie="forum_type=write";
+			document.cookie = "id=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "myid=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "classes=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "status=1; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "rand_num=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "user_type=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			setTimeout("location.href='/IS/public/forum_login'");//跳转登录
+  		});
+	});
+	
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/forum.jpg" data-stellar-background-ratio="1.15">
+		<div class="container">
+			<h1>文章分享</h1>
+			<p>Article share</p>
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>写文章</a></li>
+    			<li class="breadcrumb-item active" aria-current="page"><a href="/IS/public/forum">Back</a></li>
+  			</ol>
+		</div>
+	</header>
+	<section class="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="accordion" id="accordion" role="tablist">
+            			<div class="card">
+              				<div class="card-header" role="tab" id="headingOne"> 
+								<a id="strong" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<!--名字放这里-->
+								</a> 
+							</div>
+              				<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                				<div class="card-body"> 
+									<section class="contact">
+  										<div class="container">
+    										<div class="row align-items-center">
+        										<div class="col-lg-12">
+        											<div class="contact-form">	
+			 											<form id="contact" name="contact" method="post">
+          													<div class="form-group">
+            													<input type="text" name="title" id="title" autocomplete="off" required>
+             													<span>请输入标题</span>
+          													</div>
+															<div class="form-group"> 
+            													<textarea name="txt" id="txt" autocomplete="off" required></textarea>
+          													</div>
+															<div class="form-group">
+																<select id="type" class="form-control rounded input-lg text-center no-border">
+      																<option>请选择提交文章的版块</option>
+    															</select>
+          													</div>
+															<button id="press" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+			  														<i class="icon-arrow-right pull-right"></i>
+																	<span class="m-r-n-lg">提交</span>
+															</button>
+        												</form>
+        											</div>
+        										</div>
+   											</div> 
+  										</div> 
+									</section>
+								</div>
+              				</div>
+            			</div> 
+          			</div>
+				</div>
+				<div class="col-lg-4">
+					<aside class="sidebox">
+						<i class="fas fa-question-circle"></i>
+						<h3>有疑问？</h3>
+						<p>如果有疑问，请联系超级管理员Shane</p>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>

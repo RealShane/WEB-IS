@@ -1,0 +1,76 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Titlecontent')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-titlecontent" data-rule="required" class="form-control editor" rows="5" name="row[titlecontent]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Txtcontent')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-txtcontent" data-rule="required" class="form-control editor" rows="5" name="row[txtcontent]" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Author')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-author" data-rule="required" class="form-control" name="row[author]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('User_type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-user_type" data-rule="required" class="form-control selectpicker" name="row[user_type]">
+                {foreach name="userTypeList" item="vo"}
+                    <option value="{$key}" {in name="key" value=""}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Classes')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-classes" data-rule="required" class="form-control" name="row[classes]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Link')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-link" data-rule="required" class="form-control" name="row[link]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[time]" type="text" value="{:date('Y-m-d')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type" data-rule="required" class="form-control" name="row[type]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Verify')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-verify" data-rule="required" class="form-control selectpicker" name="row[verify]">
+                {foreach name="verifyList" item="vo"}
+                    <option value="{$key}" {in name="key" value="不过"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

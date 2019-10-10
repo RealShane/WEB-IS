@@ -1,0 +1,1116 @@
+---------------------------------------------------------------
+[ 2019-08-30T08:17:11+08:00 ] 61.129.6.227 GET serv.huihuagongxue.top/IS/public/arctic_info?id=10http://serv.huihuagongxue.top/IS/public/arctic_info?id=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004972s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.004271s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('61.129.6.227' , '2019-08-30 08:17:10' , '论坛文章') [ RunTime:0.020028s ]
+---------------------------------------------------------------
+[ 2019-08-30T08:17:13+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/arctic_info?id=10http://serv.huihuagongxue.top/IS/public/arctic_info?id=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000572s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('36.98.24.35' , '2019-08-30 08:17:13' , '论坛文章') [ RunTime:0.006268s ]
+---------------------------------------------------------------
+[ 2019-08-30T08:17:15+08:00 ] 36.98.24.35 POST serv.huihuagongxue.top/IS/public/comment_show.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008857s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `forum_comment` [ RunTime:0.001740s ]
+[ sql ] [ SQL ] SELECT * FROM `forum_comment` WHERE  `belong` = 10 ORDER BY `id` DESC [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2019-08-30T08:17:15+08:00 ] 36.98.24.35 POST serv.huihuagongxue.top/IS/public/info.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001753s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.004802s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 10  AND `verify` = '通过' LIMIT 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2019-08-30T08:18:10+08:00 ] 101.89.29.92 GET serv.huihuagongxue.top/IS/public/arctic_info?id=10http://serv.huihuagongxue.top/IS/public/arctic_info?id=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('101.89.29.92' , '2019-08-30 08:18:10' , '论坛文章') [ RunTime:0.059398s ]
+---------------------------------------------------------------
+[ 2019-08-30T08:31:13+08:00 ] 117.136.0.235 GET serv.huihuagongxue.top/IS/public/arctic_info?id=10http://serv.huihuagongxue.top/IS/public/arctic_info?id=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('117.136.0.235' , '2019-08-30 08:31:13' , '论坛文章') [ RunTime:0.005036s ]
+---------------------------------------------------------------
+[ 2019-08-30T08:31:16+08:00 ] 117.136.0.235 POST serv.huihuagongxue.top/IS/public/comment_show.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `forum_comment` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT * FROM `forum_comment` WHERE  `belong` = 10 ORDER BY `id` DESC [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2019-08-30T08:31:16+08:00 ] 117.136.0.235 POST serv.huihuagongxue.top/IS/public/info.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006914s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002060s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 10  AND `verify` = '通过' LIMIT 1 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-08-30T10:20:32+08:00 ] 47.101.191.231 GET serv.huihuagongxue.top/IS/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000510s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('47.101.191.231' , '2019-08-30 10:20:32' , '综合系统主页') [ RunTime:0.004210s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:04+08:00 ] 221.192.179.246 POST serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.001904s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/IS\\/public\\/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php\\/auth\\/admin?ref=addtabs\",\"__token__\":\"d4431654e93ead3fc3dc333b53754d13\",\"username\":\"xHZxO1TyrK\",\"captcha\":\"EOFZ\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044813 Mobile Safari/537.36 V1_AND_SQ_8.1.3_1246_YYB_D QQ/8.1.3.4185 NetType/4G WebP/0.3.0 Pixel/1080 ' , '221.192.179.246' , 1567143124) [ RunTime:0.004261s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:18+08:00 ] 221.192.179.246 POST serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/IS\\/public\\/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php\\/auth\\/admin?ref=addtabs\",\"__token__\":\"e1cb0eaf7db56c650f2b1add49f170b5\",\"username\":\"xHZxO1TyrK\",\"captcha\":\"E0FZ\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044813 Mobile Safari/537.36 V1_AND_SQ_8.1.3_1246_YYB_D QQ/8.1.3.4185 NetType/4G WebP/0.3.0 Pixel/1080 ' , '221.192.179.246' , 1567143138) [ RunTime:0.004510s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:25+08:00 ] 221.192.179.246 POST serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/IS\\/public\\/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php\\/auth\\/admin?ref=addtabs\",\"__token__\":\"b2127738846e3f4b891d444fb97e7644\",\"username\":\"xHZxO1TyrK\",\"captcha\":\"E0FZ\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044813 Mobile Safari/537.36 V1_AND_SQ_8.1.3_1246_YYB_D QQ/8.1.3.4185 NetType/4G WebP/0.3.0 Pixel/1080 ' , '221.192.179.246' , 1567143145) [ RunTime:0.007885s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:25+08:00 ] 221.192.179.246 POST serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/IS\\/public\\/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php\\/auth\\/admin?ref=addtabs\",\"__token__\":\"8bfd194e043b391a667f2d1e992d85a1\",\"username\":\"xHZxO1TyrK\",\"captcha\":\"E0FZ\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044813 Mobile Safari/537.36 V1_AND_SQ_8.1.3_1246_YYB_D QQ/8.1.3.4185 NetType/4G WebP/0.3.0 Pixel/1080 ' , '221.192.179.246' , 1567143145) [ RunTime:0.004009s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:25+08:00 ] 221.192.179.246 POST serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001457s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/IS\\/public\\/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php\\/auth\\/admin?ref=addtabs\",\"__token__\":\"41ad29c559f711014a27b090c8d3ad84\",\"username\":\"xHZxO1TyrK\",\"captcha\":\"E0FZ\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044813 Mobile Safari/537.36 V1_AND_SQ_8.1.3_1246_YYB_D QQ/8.1.3.4185 NetType/4G WebP/0.3.0 Pixel/1080 ' , '221.192.179.246' , 1567143145) [ RunTime:0.005161s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:39+08:00 ] 221.192.179.246 POST serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000589s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT * FROM `z_admin` WHERE  `username` = 'xHZxO1TyrK' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] UPDATE `z_admin`  SET `logintime`=1567143159,`token`='b5fad971-6a25-4aa6-a30c-d6befce67d95',`updatetime`=1567143159  WHERE  `id` = 1 [ RunTime:0.006897s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/IS\\/public\\/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php\\/auth\\/admin?ref=addtabs\",\"__token__\":\"887c4a32c435b6f5e670ffac96fb5dd5\",\"username\":\"xHZxO1TyrK\",\"captcha\":\"HX8V\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fauth%2Fadmin%3Fref%3Daddtabs' , 1 , 'xHZxO1TyrK' , 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044813 Mobile Safari/537.36 V1_AND_SQ_8.1.3_1246_YYB_D QQ/8.1.3.4185 NetType/4G WebP/0.3.0 Pixel/1080 ' , '221.192.179.246' , 1567143159) [ RunTime:0.004062s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:39+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.001657s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.001156s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000641s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:39+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000498s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000702s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:40+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005701s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:40+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'visitorsrecord' LIMIT 1 [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:41+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567143148378
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000526s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `z_auth_group_access` WHERE  `group_id` IN (1,2,4,6) [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000189s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:32:41+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567143148490
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000649s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000182s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000152s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:33:18+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin/edit/ids/4?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000997s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `z_admin` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='4' and ag.status='normal' ) [ RunTime:0.000229s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:33:40+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 13:33:40' , '综合系统主页') [ RunTime:0.007264s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:33:40+08:00 ] 58.251.121.184 GET serv.huihuagongxue.top/IS/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006197s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('58.251.121.184' , '2019-08-30 13:33:40' , '综合系统主页') [ RunTime:0.039002s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:34:40+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/origin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 13:34:40' , '综测首页') [ RunTime:0.012920s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:34:41+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/login_ZC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 13:34:41' , '综测登录') [ RunTime:0.004320s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:35:38+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000690s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:35:38+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'visitorsrecord' LIMIT 1 [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:35:39+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567143326348
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000673s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000152s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:35:41+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 13:35:41' , '综合系统主页') [ RunTime:0.008446s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:35:47+08:00 ] 101.227.139.171 GET serv.huihuagongxue.top/IS/public/login_ZC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('101.227.139.171' , '2019-08-30 13:35:47' , '综测登录') [ RunTime:0.008602s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:35:48+08:00 ] 101.89.29.92 GET serv.huihuagongxue.top/IS/public/origin
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000616s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('101.89.29.92' , '2019-08-30 13:35:48' , '综测首页') [ RunTime:0.003802s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:35:54+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/SDC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000584s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 13:35:54' , '查勤首页') [ RunTime:0.035310s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:35:54+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/data_show.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc_data` [ RunTime:0.002078s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `classes` FROM `sdc_data` [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科二班' [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科一班' [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科三班' [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18通信工程' [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:35:55+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/LoginSDC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000531s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 13:35:55' , '查勤登录') [ RunTime:0.090066s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:36:17+08:00 ] 221.192.179.246 POST serv.huihuagongxue.top/IS/public/login_sdc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc_user` [ RunTime:0.001650s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_user` WHERE  `user` = 'chaqinerbu'  AND `pass` = 'chaqin123456' LIMIT 1 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:36:52+08:00 ] 221.192.179.246 POST serv.huihuagongxue.top/IS/public/login_sdc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc_user` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_user` WHERE  `user` = 'xHZxO1TyrK'  AND `pass` = 'wq0R9xF9OArK4EE' LIMIT 1 [ RunTime:0.000288s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:37:17+08:00 ] 101.89.239.216 GET serv.huihuagongxue.top/IS/public/LoginSDC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('101.89.239.216' , '2019-08-30 13:37:17' , '查勤登录') [ RunTime:0.004213s ]
+---------------------------------------------------------------
+[ 2019-08-30T13:43:08+08:00 ] 58.247.206.148 GET serv.huihuagongxue.top/IS/public/login_ZC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('58.247.206.148' , '2019-08-30 13:43:08' , '综测登录') [ RunTime:0.004065s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:37:23+08:00 ] 47.101.196.159 GET serv.huihuagongxue.top/IS/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('47.101.196.159' , '2019-08-30 15:37:23' , '综合系统主页') [ RunTime:0.004689s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:22+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000696s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:23+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000633s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:23+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005384s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'visitorsrecord' LIMIT 1 [ RunTime:0.000232s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:23+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000480s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000181s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:25+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567151891900
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000698s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000199s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000166s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:25+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567151891949
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `z_auth_group_access` WHERE  `group_id` IN (1,2,4,6) [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:25+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567151891901
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000571s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000652s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000193s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:25+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567151891950
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `z_auth_group_access` WHERE  `group_id` IN (1,2,4,6) [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:26+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 15:58:26' , '综合系统主页') [ RunTime:0.004009s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:38+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/SDC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 15:58:38' , '查勤首页') [ RunTime:0.007293s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:39+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/data_show.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc_data` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `classes` FROM `sdc_data` [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科二班' [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科一班' [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科三班' [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18通信工程' [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2019-08-30T15:58:39+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/LoginSDC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000490s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 15:58:39' , '查勤登录') [ RunTime:0.003869s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:00:20+08:00 ] 221.192.179.246 POST serv.huihuagongxue.top/IS/public/login_sdc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc_user` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_user` WHERE  `user` = 'admin'  AND `pass` = 'adminadmin' LIMIT 1 [ RunTime:0.000233s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:00:20+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/SDC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 16:00:20' , '查勤首页') [ RunTime:0.003869s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:00:21+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/data_show.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc_data` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `classes` FROM `sdc_data` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科二班' [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科一班' [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科三班' [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18通信工程' [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:00:38+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/Absent?name=%E5%88%98%E6%99%BA%E6%96%8C&myid=2018510431&classes=18%E8%AE%A1%E7%A7%91%E4%BA%8C%E7%8F%AD
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 16:00:38' , '缺席记录') [ RunTime:0.004152s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:00+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/SDC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 16:01:00' , '查勤首页') [ RunTime:0.022078s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:01+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/data_show.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003801s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc_data` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `classes` FROM `sdc_data` [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科二班' [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科一班' [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科三班' [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18通信工程' [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:22+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000654s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:23+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000785s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:23+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001797s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'visitorsrecord' LIMIT 1 [ RunTime:0.000233s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:23+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:25+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567152071681
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `z_auth_group_access` WHERE  `group_id` IN (1,2,4,6) [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000208s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:25+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567152071653
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000640s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000225s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000168s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:25+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 16:01:25' , '综合系统主页') [ RunTime:0.006994s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:32+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/SDC
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 16:01:32' , '查勤首页') [ RunTime:0.004937s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:01:33+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/data_show.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002618s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc_data` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `classes` FROM `sdc_data` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科二班' [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科一班' [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18计科三班' [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc_data` WHERE  `classes` = '18通信工程' [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:02:33+08:00 ] 221.192.179.246 GET serv.huihuagongxue.top/IS/public/Absent?name=%E5%88%98%E6%99%BA%E6%96%8C&myid=2018510431&classes=18%E8%AE%A1%E7%A7%91%E4%BA%8C%E7%8F%AD
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('221.192.179.246' , '2019-08-30 16:02:33' , '缺席记录') [ RunTime:0.004050s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:12:48+08:00 ] 61.151.207.186 GET serv.huihuagongxue.top/IS/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000563s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('61.151.207.186' , '2019-08-30 16:12:48' , '综合系统主页') [ RunTime:0.008091s ]
+---------------------------------------------------------------
+[ 2019-08-30T16:13:11+08:00 ] 61.129.6.227 GET serv.huihuagongxue.top/IS/public/Absent?name=%E5%88%98%E6%99%BA%E6%96%8C&myid=2018510431&classes=18%E8%AE%A1%E7%A7%91%E4%BA%8C%E7%8F%AD
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000516s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('61.129.6.227' , '2019-08-30 16:13:11' , '缺席记录') [ RunTime:0.004912s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:14+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000691s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:14+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000532s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000623s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:15+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000543s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'visitorsrecord' LIMIT 1 [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:15+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000470s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000183s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:16+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567166105251
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000789s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `z_auth_group_access` WHERE  `group_id` IN (1,2,4,6) [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000200s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:16+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567166105202
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000669s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000224s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000170s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:17+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567166105203
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000644s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000152s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:17+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567166105252
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `id` FROM `z_admin` [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `z_auth_group` WHERE  `id` IN (1,2,4,6) [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `z_auth_group_access` WHERE  `group_id` IN (1,2,4,6) [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `z_admin` WHERE  `id` IN (4,2,3,1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000192s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:17+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000561s ]
+[ sql ] [ SQL ] INSERT INTO `visitor_s_record` (`ip_address` , `time` , `site`) VALUES ('223.104.13.25' , '2019-08-30 19:55:17' , '综合系统主页') [ RunTime:0.007536s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:41+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000551s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000640s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:42+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'visitorsrecord' LIMIT 1 [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:43+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567166131587
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000533s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000665s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000194s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000169s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:53+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'sdc1801' LIMIT 1 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:55:54+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567166143094
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000695s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000195s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc1801` [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sdc1801` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc1801` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000137s ]
+---------------------------------------------------------------
+[ 2019-08-30T19:56:02+08:00 ] 223.104.13.25 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567166143095
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000965s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000279s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc1801` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sdc1801` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc1801` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000143s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:24:34+08:00 ] 106.114.16.114 POST serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT * FROM `z_admin` WHERE  `username` = 'xHZxO1TyrK' LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] UPDATE `z_admin`  SET `logintime`=1567167874,`token`='48a2a984-7eaa-46d8-a067-935398fe9c7c',`updatetime`=1567167874  WHERE  `id` = 1 [ RunTime:0.004023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/IS\\/public\\/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php\",\"__token__\":\"cc855344e324d45655eb3516b260ab04\",\"username\":\"xHZxO1TyrK\",\"captcha\":\"2nke\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php' , 1 , 'xHZxO1TyrK' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '106.114.16.114' , 1567167874) [ RunTime:0.003226s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:24:35+08:00 ] 106.114.16.114 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000645s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:24:35+08:00 ] 106.114.16.114 POST serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/IS\\/public\\/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php\",\"__token__\":\"cc855344e324d45655eb3516b260ab04\",\"username\":\"xHZxO1TyrK\",\"captcha\":\"2nke\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php' , 1 , 'xHZxO1TyrK' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '106.114.16.114' , 1567167875) [ RunTime:0.003683s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:24:35+08:00 ] 106.114.16.114 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000574s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'visitorsrecord' LIMIT 1 [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:24:35+08:00 ] 106.114.16.114 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567167873778
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.003286s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000653s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000214s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000171s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:24:40+08:00 ] 106.114.16.114 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'sdc1801' LIMIT 1 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:24:41+08:00 ] 106.114.16.114 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567167879244
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000661s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc1801` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sdc1801` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc1801` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000176s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:28:48+08:00 ] 36.98.24.35 POST serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fsdc1801%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `z_admin` WHERE  `username` = 'xHZxO1TyrK' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] UPDATE `z_admin`  SET `logintime`=1567168128,`token`='7aa8b78e-a2d9-4b54-9714-90392dd3a9c8',`updatetime`=1567168128  WHERE  `id` = 1 [ RunTime:0.041404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/IS\\/public\\/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php\\/sdc1801?ref=addtabs\",\"__token__\":\"c7eee3e9022a07a2798ff9af3665eebf\",\"username\":\"xHZxO1TyrK\",\"captcha\":\"fxcj\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fsdc1801%3Fref%3Daddtabs' , 1 , 'xHZxO1TyrK' , 'Mozilla/5.0 (Linux; Android 9; POT-AL00a Build/HUAWEIPOT-AL00a; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044816 Mobile Safari/537.36 V1_AND_SQ_8.1.3_1246_YYB_D QQ/8.1.3.4185 NetType/4G WebP/0.3.0 Pixel' , '36.98.24.35' , 1567168128) [ RunTime:0.008761s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:28:49+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000649s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:28:49+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000661s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:28:49+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.008464s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'sdc1801' LIMIT 1 [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:28:49+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000534s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'visitorsrecord' LIMIT 1 [ RunTime:0.000214s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:28:50+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567168129408
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000635s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc1801` [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sdc1801` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc1801` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000138s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:28:50+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567168129473
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000509s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.003776s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000672s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000214s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000165s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:28:58+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1803?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'sdc1803' LIMIT 1 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:28:59+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1803/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567168138777
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000526s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000652s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc1803` [ RunTime:0.001510s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sdc1803` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc1803` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000139s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:29:34+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1803/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567168138778
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000627s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000199s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc1803` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sdc1803` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc1803` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000195s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:29:44+08:00 ] 36.98.24.35 GET serv.huihuagongxue.top/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1803/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567168138779
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000582s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000697s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000199s ] mysql:host=localhost;dbname=serv_huihuagongx;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc1803` [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sdc1803` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc1803` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000149s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:38:51+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fsdc1801%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026558s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin` [ RunTime:0.023865s ]
+[ sql ] [ SQL ] SELECT * FROM `z_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.013496s ]
+[ sql ] [ SQL ] UPDATE `z_admin`  SET `logintime`=1567168731,`token`='e86c0c28-af16-4085-93c7-b651918812e9',`updatetime`=1567168731  WHERE  `id` = 1 [ RunTime:0.077558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.002720s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/IS\\/public\\/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php\\/sdc1801?ref=addtabs\",\"__token__\":\"5ced03e22c6897205fbe428f185be833\",\"username\":\"admin\",\"captcha\":\"nqn8\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/login?url=%2FIS%2Fpublic%2Fadmin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php%2Fsdc1801%3Fref%3Daddtabs' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168731) [ RunTime:0.040133s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:38:52+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003025s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.004293s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.013984s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.003120s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001274s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:38:52+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002939s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.002626s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001921s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.002158s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000848s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:38:52+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002085s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.001597s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'visitorsrecord' LIMIT 1 [ RunTime:0.017385s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:38:53+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011768s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.003205s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002015s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.002621s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000996s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'sdc1801' LIMIT 1 [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:38:53+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/visitor_s_record/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567168732962
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003129s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.001788s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001077s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001762s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visitor_s_record` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT * FROM `visitor_s_record` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:38:53+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc1801/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567168733438
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002004s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000900s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001543s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sdc1801` [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sdc1801` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `sdc1801` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:38:57+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/command?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002305s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'command' LIMIT 1 [ RunTime:0.000696s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:38:57+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/command/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567168737442
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012534s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.002983s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.002359s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_command` [ RunTime:0.002439s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `z_command` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `z_command` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:39:00+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013168s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.002572s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002055s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.002494s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'auth/rule' LIMIT 1 [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:39:00+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/index?sort=weigh&order=desc&_=1567168740447
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012751s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.002899s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.002676s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001651s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:39:30+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/edit/ids/122?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002440s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.006900s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001838s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `id` = 122 LIMIT 1 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:39:53+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/104
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012147s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.002744s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.002575s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `id` IN (104) [ RunTime:0.000435s ]
+[ sql ] [ SQL ] UPDATE `z_auth_rule`  SET `ismenu`=0,`updatetime`=1567168793  WHERE  `id` = 104 [ RunTime:0.035620s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.002212s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"\",\"ids\":\"104\",\"params\":\"ismenu=0\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/104' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168793) [ RunTime:0.042401s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:39:53+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012743s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.001032s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168793) [ RunTime:0.030164s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:39:53+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/index?sort=weigh&order=desc&_=1567168740448
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013063s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.002277s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.003184s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001061s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:39:55+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/11
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012896s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001152s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `id` IN (11) [ RunTime:0.000337s ]
+[ sql ] [ SQL ] UPDATE `z_auth_rule`  SET `ismenu`=0,`updatetime`=1567168795  WHERE  `id` = 11 [ RunTime:0.009069s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.002381s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"\",\"ids\":\"11\",\"params\":\"ismenu=0\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/11' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168795) [ RunTime:0.051729s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:39:55+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012962s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000997s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.002561s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168795) [ RunTime:0.026315s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:39:55+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/index?sort=weigh&order=desc&_=1567168740449
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012687s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.001682s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001094s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:01+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/11
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012561s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `id` IN (11) [ RunTime:0.000481s ]
+[ sql ] [ SQL ] UPDATE `z_auth_rule`  SET `ismenu`=1,`updatetime`=1567168801  WHERE  `id` = 11 [ RunTime:0.036197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.003048s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"\",\"ids\":\"11\",\"params\":\"ismenu=1\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/11' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168801) [ RunTime:0.042654s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:01+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002859s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.001076s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168801) [ RunTime:0.020252s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:01+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/index?sort=weigh&order=desc&_=1567168740450
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003073s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.002466s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001796s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.002471s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001004s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:05+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/104
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003314s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001139s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `id` IN (104) [ RunTime:0.000437s ]
+[ sql ] [ SQL ] UPDATE `z_auth_rule`  SET `ismenu`=1,`updatetime`=1567168805  WHERE  `id` = 104 [ RunTime:0.024051s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.001655s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"\",\"ids\":\"104\",\"params\":\"ismenu=1\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/104' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168805) [ RunTime:0.041036s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:05+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002500s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168805) [ RunTime:0.020145s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:05+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/index?sort=weigh&order=desc&_=1567168740451
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004855s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001298s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:21+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/194
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012576s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001433s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `id` IN (194) [ RunTime:0.000388s ]
+[ sql ] [ SQL ] UPDATE `z_auth_rule`  SET `ismenu`=0,`updatetime`=1567168821  WHERE  `id` = 194 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.002226s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"\",\"ids\":\"194\",\"params\":\"ismenu=0\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/194' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168821) [ RunTime:0.042841s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:21+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003099s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.002554s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168821) [ RunTime:0.021100s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:21+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/index?sort=weigh&order=desc&_=1567168740452
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002402s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.001713s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.000997s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:23+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/194
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002548s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `id` IN (194) [ RunTime:0.000332s ]
+[ sql ] [ SQL ] UPDATE `z_auth_rule`  SET `ismenu`=1,`updatetime`=1567168823  WHERE  `id` = 194 [ RunTime:0.028429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"\",\"ids\":\"194\",\"params\":\"ismenu=1\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/multi/ids/194' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168823) [ RunTime:0.021728s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:23+08:00 ] 0.0.0.0 POST localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012328s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_admin_log` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] INSERT INTO `z_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400' , '0.0.0.0' , 1567168823) [ RunTime:0.019686s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:24+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/auth/rule/index?sort=weigh&order=desc&_=1567168740453
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002512s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002010s ]
+[ sql ] [ SQL ] SELECT * FROM `z_auth_rule` ORDER BY `weigh` DESC,`id` ASC [ RunTime:0.001266s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:27+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc_res?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012836s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.001253s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `z_auth_rule` WHERE  `name` = 'sdcres' LIMIT 1 [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[ 2019-08-30T20:40:27+08:00 ] 0.0.0.0 GET localhost/IS/public/admin_aoaiJKDSadGBlk659ad74a6wdwrgrd7ndfdaf354fdGsadfg687.php/sdc_res/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1567168827285
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012524s ] mysql:host=localhost;dbname=is;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_group_access` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `z_auth_group_access` `aga` LEFT JOIN `z_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `z_auth_rule` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `z_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000947s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011558s ] mysql:host=localhost;dbname=is;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'is.sdc_res' doesn't exist

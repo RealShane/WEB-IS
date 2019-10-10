@@ -1,0 +1,76 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Myid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-myid" data-rule="required" class="form-control" name="row[myid]" type="number" value="{$row.myid|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Classes')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-classes" data-rule="required" class="form-control" name="row[classes]" type="text" value="{$row.classes|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Email')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-email" data-rule="required" class="form-control " rows="5" name="row[email]" cols="50">{$row.email|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Comment')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-comment" data-rule="required" class="form-control selectpicker" name="row[comment]">
+                {foreach name="commentList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.comment"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Username')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-username" data-rule="required" class="form-control" name="row[username]" type="text" value="{$row.username|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Password')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-password" data-rule="required" class="form-control" name="row[password]" type="text" value="{$row.password|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-type" data-rule="required" class="form-control selectpicker" name="row[type]">
+                {foreach name="typeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.type"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Rand_num')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-rand_num" data-rule="required" class="form-control " rows="5" name="row[rand_num]" cols="50">{$row.rand_num|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-第二课堂</title>
+<script type="text/javascript">
+	/*查询功能ajax*/
+	$(document).ready(function(){
+		$().ready(function(){ 
+    		$.ajax({
+        		type:'get',
+				async:true,
+        		url:"{:url('origin/secondclass/classes')}",
+        		dataType:'json',
+        		success:function(res){
+            		for(var i=0;i<res.length;i++){
+           	 			var classes=$("<option value='"+res[i]["id"]+"'>"+res[i]["name"]+"</option>");
+						classes.appendTo("#classes");
+					}
+        		},
+      		});
+    	});
+  		$("#search").click(function(){
+			var studentid=$("#studentid").val();
+			var classes=$("#classes").val();
+  			$.ajax({
+				type:'post',
+				dataType:'json',
+				url:"{:url('origin/secondclass/search')}",
+	  			async:false,
+				data:{
+					studentid:studentid,
+					classes:classes
+				},
+				success(res){
+					$("#title").remove();
+					$("#info").remove();
+					var a=$("<h1 id='title'>"+res.info[0].name+"</h1>");
+					a.appendTo("#a");
+					var b=$("<div id='info'><h4><i class='fas fa-tags'></i>你选择的课程："+res.course+"</br><i class='fas fa-tags'></i>你去过的讲座："+res.info[0].type+"</br><i class='fas fa-tags'></i>你的班级："+res.class+"</br><i class='fas fa-tags'></i>你的学号："+res.info[0].myid+"</br><i class='fas fa-tags'></i>你的总学分："+res.info[0].allmark+"</br><i class='fas fa-tags'></i>你的课程得分："+res.info[0].signmark+"</br><i class='fas fa-tags'></i>你的讲座得分："+res.info[0].tutorialmark+"</br><i class='fas fa-tags'></i>你在："+res.info[0].year+"年完成这些</h4></div>");
+					b.appendTo("#b");
+        		 }
+			});
+  		});
+	});
+</script>
+</head>
+<body>
+	{include file="public/nav_nologin" /}
+	<header class="page-header" data-background="/IS/public/static/images/secondclass.jpg" data-stellar-background-ratio="1.15">
+  		<div class="container">
+    		<h1>查询你选择的课程</h1>
+    		<p>Search the course you choose</p>
+    		<ol class="breadcrumb">
+      			<li class="breadcrumb-item"><a>查询</a></li>
+      			<li class="breadcrumb-item active" aria-current="page">Search</li>
+    		</ol>
+  		</div>
+	</header>
+	<section class="faq">
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+        			<div class="contact-form">	
+			 			<form id="contact" name="contact" method="post">
+          					<div class="form-group">
+            					<input type="text" name="name" id="studentid" autocomplete="off" required>
+             					<span>输入学号查询</span>
+          					</div>
+							<div class="form-group">
+								<select id="classes" class="form-control rounded input-lg text-center no-border">
+      								<option>请选择班级</option>
+    							</select>
+          					</div>
+          					<button id="search" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+			  					<i class="icon-arrow-right pull-right"></i>
+								<span class="m-r-n-lg">查询</span>
+							</button>
+							<h1>点击后请往下面看！</h1>
+        				</form>
+        			</div>
+        		</div>
+				<div class="col-lg-4">
+					<aside class="sidebox">
+						<i class="fas fa-question-circle"></i>
+						<h3>有疑问？</h3>
+						<p>如果有疑问，请联系超级管理员Shane</p>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</section>
+	</section>
+	<section class="blog">
+  		<div class="container">
+    		<div class="row">
+    			<div class="col-lg-8">
+    				<div class="post">
+    					<div class="post-content">
+    						<div class="post-author" id="a">
+    							<!--人名-->
+    						</div>
+    						<p class="post-intro" id="b"></p>
+    					</div>
+    				</div>
+    			</div>
+  			</div>
+		</div>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>

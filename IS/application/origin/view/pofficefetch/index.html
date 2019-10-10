@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/head" /}
+<title>工学部综合系统-时光邮箱</title>
+<script type="text/javascript">
+	//监测是否登录
+	var seed=$.cookie();
+	$().ready(function(){
+		if(seed.status!=0){
+			document.cookie="email_type=index";
+			var a=$("<h4><a href='/IS/public/login_PO'>登录</a></h4>");
+            a.appendTo("#a");
+		}else{
+			document.cookie = "email_type=''; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			var a=$("<h4>你好："+seed.name+"&nbsp;&nbsp;"+seed.user_type+"</h4>");
+            a.appendTo("#a");
+			var b=$("<small><a href='' id='quit'>退出登录</a></small>");
+            b.appendTo("#a");
+		}
+	});
+	$().ready(function(){
+		$("#quit").click(function(){
+			document.cookie="email_type=index";
+			document.cookie = "id=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "myid=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "classes=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "status=1; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "rand_num=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			document.cookie = "user_type=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+			setTimeout("location.href='/IS/public/login_PO'");//跳转登录
+  		});
+	});
+	/*显示从后端返回的数据*/
+	$().ready(function(){
+  		$.ajax({
+			url:"{:url('origin/poffice/open_letter')}",
+	  		async:true,
+			dataType:'json',
+			success(res){
+				for(var i=0;i<res.length;i++){
+					var option=$("<div class='card'><div class='card-header' role='tab' id='headingFive'><a class='collapsed' data-toggle='collapse' href='#collapseFive' aria-expanded='false' aria-controls='collapseFive'>"+res[i].title+"</a></div><div id='collapseFive' class='collapse' role='tabpanel' aria-labelledby='headingFive' data-parent='#accordion'><div class='card-body'><a href='/IS/public/openletter?id="+res[i].id+"'>"+res[i].title+"</a></br>寄信人："+res[i].name+"&nbsp;&nbsp;"+res[i].type+"&nbsp;&nbsp;班级："+res[i].classes+"&nbsp;&nbsp;寄信时间："+res[i].time+"</div></div></div>");
+					option.appendTo("#accordion");
+				}
+			}
+		});
+	});
+</script>
+</head>
+<body>
+	{include file="public/nav_login" /}
+	<header class="page-header" data-background="/IS/public/static/images/time.jpg" data-stellar-background-ratio="1.15">
+		<div class="container">
+			<h1>公开信</h1>
+			<p>Open letter</p>
+		  	<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a>你也要写信吗？</a></li>
+				<li class="breadcrumb-item active" aria-current="page"><a href="/IS/public/WriteOpenLetter">点这里</a></li>
+  			</ol>
+		</div>
+	</header>
+	<section class="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="accordion" id="accordion" role="tablist">
+						
+          			</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{include file="public/foot" /}
+</body>
+</html>
