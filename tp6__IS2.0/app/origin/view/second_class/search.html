@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/_meta" /}
+<title>工学部综合系统-第二课堂</title>
+
+</head>
+<body>
+{include file="public/_header"/}
+<header class="page-header" data-background="/static/is/images/banner/second_class.jpg" data-stellar-background-ratio="1.15">
+	<div class="container">
+		<h1>查询你选择的课程</h1>
+		<p>Search the course you choose</p>
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a>查询</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Search</li>
+		</ol>
+	</div>
+</header>
+<section class="faq">
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="contact-form">
+						<form id="contact" name="contact" method="post">
+							<div class="form-group">
+								<input type="text" id="student_id" autocomplete="off" required>
+								<span>输入学号查询</span>
+							</div>
+							<button id="commit" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+								<i class="icon-arrow-right pull-right"></i>
+								<span class="m-r-n-lg">查询</span>
+							</button>
+						</form>
+						<div class="contact-form" id="info_set">
+							<br>
+							<p id="remove_info">
+
+							</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<aside class="sidebox">
+						<i class="fas fa-question-circle"></i>
+						<h3>有疑问？</h3>
+						<p>如果有疑问，请联系超级管理员Shane</p>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+{include file="public/_footer" /}
+<script src="/assets/js/origin/second_class/search.js"></script>
+</body>
+</html>

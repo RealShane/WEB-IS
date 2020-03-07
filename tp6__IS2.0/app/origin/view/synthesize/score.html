@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/_meta" /}
+<title>工学部综合系统-综合测评</title>
+</head>
+<body>
+{include file="public/_header"/}
+<header class="page-header" data-background="/static/is/images/banner/synthesize.jpg" data-stellar-background-ratio="1.15">
+	<div class="container">
+		<h1 id="target_name"></h1>
+		<p>Mark It!</p>
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a>打分</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Mark</li>
+		</ol>
+	</div>
+</header>
+<section class="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+
+				<form id="contact" name="contact" method="post">
+					<div class="form-group" id="input_remove">
+						<input type="text" id="mark" autocomplete="off" required>
+						<span>请打分</span>
+					</div>
+					<button id="commit" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+						<i class="icon-arrow-right pull-right"></i>
+						<span class="m-r-n-lg" id="button_remove">打分</span>
+					</button>
+					<br>
+					<div class="form-group" id="warn">
+						<div id="remove_warn">
+
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+
+
+
+			<div class="col-lg-4">
+				<aside class="sidebar">
+					<div class="widget">
+						<h4 class="title">全部功能</h4>
+						<ul class="categories">
+							<li><a href="/origin/Index/synthesizeIndex?type=zong_ce">综合测评</a></li>
+							<li><a href="/origin/Index/synthesizeIndex?type=pin_kun">贫困生测评</a></li>
+							<li><a href="/origin/Index/synthesizeIndex?type=ban_wei">班委测评</a></li>
+							<li><a href="/origin/Index/synthesizeSign?type=pin_kun_sign">贫困生报名</a></li>
+							<li><a href="/origin/Index/synthesizeSign?type=ban_wei_sign">班委报名</a></li>
+						</ul>
+					</div>
+
+					<div class="widget">
+						<h4 class="title">简介</h4>
+						<p>这里是综合测评：仅对18计科一二三班通信工程</p>
+					</div>
+
+					<div class="widget">
+						<h4 class="title">搜索</h4>
+						<form>
+							<input type="text" placeholder="摆设...">
+							<button type="submit"><i class="fas fa-search"></i></button>
+						</form>
+					</div>
+
+					<div class="widget">
+						<h4 class="title">标签</h4>
+						<ul class="tags">
+							<li><a href="#">PHP</a></li>
+							<li><a href="#">JAVA</a></li>
+							<li><a href="#">C#</a></li>
+							<li><a href="#">PYTHON</a></li>
+							<li><a href="#">C/C++</a></li>
+							<li><a href="#">GO</a></li>
+						</ul>
+					</div>
+					</a>
+				</aside>
+			</div>
+
+		</div>
+	</div>
+</section>
+{include file="public/_footer" /}
+<script src="/assets/js/origin/synthesize/score.js"></script>
+</body>
+</html>

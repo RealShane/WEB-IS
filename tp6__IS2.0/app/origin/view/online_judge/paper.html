@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/_meta" /}
+<title>工学部综合系统-通信答题</title>
+</head>
+<body>
+{include file="public/_header"/}
+<header class="page-header" data-background="/static/is/images/banner/online_judge.jpg" data-stellar-background-ratio="1.15">
+    <div class="container">
+        <h1>通信答题</h1>
+        <p>Online Judge</p>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a>答题</a></li>
+            <li class="breadcrumb-item active" aria-current="page">OJ</li>
+        </ol>
+    </div>
+</header>
+<section class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+
+                <div class="post">
+                    <figure class="post-image">
+                        <img src="/static/is/images/banner/background.jpg" alt="Image">
+                    </figure>
+                    <div class="post-content">
+                        <h2 class="post-title">
+                            <a id="head_set"></a>
+                            <p id="deadline_set"></p>
+                        </h2>
+                        <p class="post-intro" id="body_set">
+                        </p>
+                    </div>
+                    <small>建议：先保存检查完后再判题，一旦判题不可修改！</small>
+                    <small>注意：如之前保存过，修改之后直接点击判题，答案将遵从原保存答案而不是本次修改后的答案！</small>
+                    <form id="questions_set" class="layui-form layui-form-pane">
+
+                        <div id="single_set">
+
+                        </div>
+
+                        <div id="multiple_set">
+
+                        </div>
+
+                        <div id="judge_set">
+
+                        </div>
+                    </form>
+
+                    <button id="type_commit" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+                        <i class="icon-arrow-right pull-right"></i>
+                        <span class="m-r-n-lg">保存</span>
+                    </button>
+                    <button id="type_judge" type="button" class="btn btn-lg btn-danger lt b-white b-2x btn-block btn-rounded">
+                        <i class="icon-arrow-right pull-right"></i>
+                        <span class="m-r-n-lg">判题</span>
+                    </button>
+                    <div id="warn">
+                        <div id="remove_warn">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-4">
+                <aside class="sidebar">
+                    <div class="widget">
+                        <h4 class="title">全部功能</h4>
+                        <ul class="categories">
+                            <li><a href="/origin/Index/onlineJudgeCatalogue">试卷列表</a></li>
+                            <li><a href="/origin/Index/onlineJudgePersonalPaper">做过的试卷</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="widget">
+                        <h4 class="title">简介</h4>
+                        <p>这里是通信答题：仅对17/18通信工程开放</p>
+                    </div>
+
+                    <div class="widget">
+                        <h4 class="title">搜索</h4>
+                        <form>
+                            <input type="text" placeholder="摆设...">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="widget">
+                        <h4 class="title">标签</h4>
+                        <ul class="tags">
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">JAVA</a></li>
+                            <li><a href="#">C#</a></li>
+                            <li><a href="#">PYTHON</a></li>
+                            <li><a href="#">C/C++</a></li>
+                            <li><a href="#">GO</a></li>
+                        </ul>
+                    </div>
+                    </a>
+                </aside>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{include file="public/_footer" /}
+<script src="/assets/js/origin/online_judge/paper.js"></script>
+</body>
+</html>

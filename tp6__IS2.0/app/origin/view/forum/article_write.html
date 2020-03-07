@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/_meta" /}
+<title>工学部综合系统-技术讨论</title>
+</head>
+<body>
+{include file="public/_header"/}
+<header class="page-header" data-background="/static/is/images/banner/forum.jpg" data-stellar-background-ratio="1.15">
+	<div class="container">
+		<h1>写文章</h1>
+		<p>Article Write</p>
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a>写文章</a></li>
+			<li class="breadcrumb-item active" aria-current="page"><a>AW</a></li>
+		</ol>
+	</div>
+</header>
+<section class="faq">
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="card-body">
+						<div class="contact-form">
+							<form id="contact" name="contact" method="post">
+
+								<div class="form-group">
+									<input type="text" id="title" autocomplete="off" required>
+									<span>文章标题</span>
+								</div>
+								<div class="form-group">
+									<textarea id="content" autocomplete="off" required></textarea>
+									<span>文章</span>
+								</div>
+								<div class="form-group">
+									<input type="text" id="validate" autocomplete="off" required>
+									<span>验证码(需计算)</span>
+								</div>
+								<div class="form-group">
+									<div>
+										<img id="captcha" src="{:captcha_src()}" alt="点击更新验证码" />
+									</div>
+									<a id="captcha_a">&nbsp;&nbsp;&nbsp;&nbsp;看不清?点图片或者点我</a>
+								</div>
+
+								<button id="commit" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+									<i class="icon-arrow-right pull-right"></i>
+									<span class="m-r-n-lg">发布文章</span>
+								</button>
+
+								<br>
+								<div class="form-group" id="warn">
+									<div id="remove_warn">
+
+									</div>
+								</div>
+
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<aside class="sidebox">
+						<i class="fas fa-question-circle"></i>
+						<h3>有疑问？</h3>
+						<p>如果有疑问，请联系超级管理员Shane</p>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+{include file="public/_footer" /}
+<script src="/assets/js/origin/forum/article.write.js"></script>
+</body>
+</html>

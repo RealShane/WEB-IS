@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/_meta" /}
+<title>工学部综合系统-论坛</title>
+</head>
+<body>
+{include file="public/_header"/}
+<header class="page-header" data-background="/static/is/images/banner/forum.jpg" data-stellar-background-ratio="1.15">
+	<div class="container">
+		<h1>文章分享</h1>
+		<p>Article Share</p>
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a>文章内容</a></li>
+			<li class="breadcrumb-item active" aria-current="page"><a>AS</a></li>
+		</ol>
+	</div>
+</header>
+<section class="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+
+				<div class="post">
+					<figure class="post-image">
+						<img src="/static/is/images/banner/background.jpg" alt="Image">
+					</figure>
+					<div class="post-content">
+						<h2 class="post-title">
+							<a id="title_set"></a>
+							<p id="info_set"></p>
+						</h2>
+						<p class="post-intro" id="article_set">
+
+						</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+			<div class="col-lg-4">
+				<aside class="sidebar">
+					<div class="widget">
+						<h4 class="title">该版块其他文章</h4>
+						<ul class="categories" id="list_set">
+
+						</ul>
+					</div>
+
+					<div class="widget">
+						<h4 class="title">简介</h4>
+						<p>这里是论坛</p>
+					</div>
+
+					<div class="widget">
+						<h4 class="title">搜索</h4>
+						<form>
+							<input type="text" placeholder="摆设...">
+							<button type="submit"><i class="fas fa-search"></i></button>
+						</form>
+					</div>
+
+					<div class="widget">
+						<h4 class="title">标签</h4>
+						<ul class="tags">
+							<li><a href="#">PHP</a></li>
+							<li><a href="#">JAVA</a></li>
+							<li><a href="#">C#</a></li>
+							<li><a href="#">PYTHON</a></li>
+							<li><a href="#">C/C++</a></li>
+							<li><a href="#">GO</a></li>
+						</ul>
+					</div>
+					</a>
+				</aside>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="faq">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="accordion" id="accordion" role="tablist">
+					<section class="contact">
+						<div class="contact-form">
+							<form id="contact" name="contact" method="post">
+								<div class="form-group">
+									<textarea id="comment" autocomplete="off" required></textarea>
+									<span>输入评论</span>
+								</div>
+								<div class="form-group">
+									<input type="text" id="validate" autocomplete="off" required>
+									<span>验证码(需计算)</span>
+								</div>
+								<div class="form-group">
+									<div>
+										<img name="captcha" src="{:captcha_src()}" alt="点击更新验证码" />
+									</div>
+									<a name="captcha_a">&nbsp;&nbsp;&nbsp;&nbsp;看不清?点图片或者点我</a>
+								</div>
+								<button id="commit_comment" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+									<i class="icon-arrow-right pull-right"></i>
+									<span class="m-r-n-lg">评论</span>
+								</button>
+								<br>
+								<div class="form-group" id="warn">
+									<div id="remove_warn">
+
+									</div>
+								</div>
+							</form>
+							<section class="faq">
+								<div class="container">
+									<div class="row">
+										<div class="col-lg-8">
+											<div class="accordion" id="comment_set" role="tablist">
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<aside class="sidebox">
+					<i class="fas fa-question-circle"></i>
+					<h3>有疑问？</h3>
+					<p>如果有疑问，请联系超级管理员Shane</p>
+				</aside>
+			</div>
+		</div>
+	</div>
+</section>
+{include file="public/_footer" /}
+<script src="/assets/js/origin/forum/article.js"></script>
+</body>
+</html>

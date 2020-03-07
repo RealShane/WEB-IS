@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+{include file="public/_meta" /}
+<title>综合系统-统一登录</title>
+
+</head>
+<body>
+{include file="public/_header"/}
+<header class="page-header" data-background="/static/is/images/banner/public.jpg" data-stellar-background-ratio="1.15">
+	<div class="container">
+		<h1>综合系统-统一登录</h1>
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a>登录</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Login</li>
+		</ol>
+	</div>
+</header>
+<section class="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<form id="contact" name="contact" method="post">
+
+					<div id="email_place">
+						<div class="form-group">
+							<input type="text" placeholder="邮箱" id="email" autocomplete="off" required>
+						</div>
+					</div>
+
+					<div id="type_password">
+						<div class="form-group">
+							<input type="text" placeholder="密码" id="password" autocomplete="off" required>
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="图片验证码(需计算)" id="validate_password" autocomplete="off" required>
+						</div>
+
+						<div class="form-group">
+							<div>
+								<img name="captcha" src="{:captcha_src()}" alt="点击更新验证码" />
+							</div>
+							<a name="captcha_a">&nbsp;&nbsp;&nbsp;&nbsp;看不清?点图片或者点我</a>
+						</div>
+						<button name="commit" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+							<i class="icon-arrow-right pull-right"></i>
+							<span class="m-r-n-lg">登录</span>
+						</button>
+						<button id="login_type_change" type="button" class="btn btn-lg btn-dark lt b-white b-2x btn-block btn-rounded">
+							<i class="icon-cup"></i>
+							<span class="m-r-n-lg">切换邮箱登陆</span>
+						</button>
+					</div>
+
+					<div id="type_email">
+						<div class="form-group">
+							<input type="text" placeholder="图片验证码(需计算)" id="validate_send_email" autocomplete="off" required>
+						</div>
+
+						<div class="form-group">
+							<div>
+								<img name="captcha" src="{:captcha_src()}" alt="点击更新验证码" />
+							</div>
+							<a name="captcha_a">&nbsp;&nbsp;&nbsp;&nbsp;看不清?点图片或者点我</a>
+						</div>
+						<button id="send_email" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+							<i class="icon-arrow-right pull-right"></i>
+							<span class="m-r-n-lg">发送验证码</span>
+						</button>
+						<button id="login_type_back" type="button" class="btn btn-lg btn-dark lt b-white b-2x btn-block btn-rounded">
+							<i class="icon-cup"></i>
+							<span class="m-r-n-lg">返回密码登陆</span>
+						</button>
+					</div>
+
+					<div id="type_email_send">
+						<div class="form-group">
+							<input type="text" placeholder="邮箱6位验证码" id="random" autocomplete="off" required>
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="图片验证码(需计算)" id="validate_email" autocomplete="off" required>
+						</div>
+
+						<div class="form-group">
+							<div>
+								<img name="captcha" src="{:captcha_src()}" alt="点击更新验证码" />
+							</div>
+							<a name="captcha_a">&nbsp;&nbsp;&nbsp;&nbsp;看不清?点图片或者点我</a>
+						</div>
+						<button name="commit" type="button" class="btn btn-lg btn-success lt b-white b-2x btn-block btn-rounded">
+							<i class="icon-arrow-right pull-right"></i>
+							<span class="m-r-n-lg">登陆</span>
+						</button>
+					</div>
+					<br>
+					<button id="register" type="button" class="btn btn-lg btn-danger lt b-white b-2x btn-block btn-rounded">
+						<i class="icon-arrow-right pull-right"></i>
+						<span class="m-r-n-lg">还没有账号？去注册</span>
+					</button>
+					<br>
+					<div class="form-group" id="warn">
+						<div id="remove_warn">
+
+						</div>
+					</div>
+
+				</form>
+			</div>
+			<div class="col-lg-4">
+				<aside class="sidebar">
+					<div class="widget">
+						<h4 class="title">全部功能</h4>
+						<ul class="categories">
+							<li><a href="/">主页</a></li>
+							<li>
+								<a href="/origin/Index/secondClassIndex">第二课堂</a>
+							</li>
+							<li>
+								<a href="/origin/Index/synthesizeIndex?type=zong_ce">综合测评</a>
+							</li>
+							<li>
+								<a href="/origin/Index/timePostalIndex">时光信箱</a>
+							</li>
+							<li><a href="/origin/Index/onlineJudgeIndex">通信答题</a></li>
+							<li><a href="/origin/Index/forumIndex">论坛</a></li>
+							<li><a href="/origin/Index/personal">个人设置</a></li>
+						</ul>
+					</div>
+
+					<div class="widget">
+						<h4 class="title">简介</h4>
+						<p>这里是综合系统统一登陆，登陆后可使用所有无附加要求的功能</p>
+					</div>
+
+					<div class="widget">
+						<h4 class="title">搜索</h4>
+						<form>
+							<input type="text" placeholder="摆设...">
+							<button type="submit"><i class="fas fa-search"></i></button>
+						</form>
+					</div>
+
+					<div class="widget">
+						<h4 class="title">标签</h4>
+						<ul class="tags">
+							<li><a href="#">PHP</a></li>
+							<li><a href="#">JAVA</a></li>
+							<li><a href="#">C#</a></li>
+							<li><a href="#">PYTHON</a></li>
+							<li><a href="#">C/C++</a></li>
+							<li><a href="#">GO</a></li>
+						</ul>
+					</div>
+					</a>
+				</aside>
+			</div>
+		</div>
+	</div>
+</section>
+{include file="public/_footer" /}
+<script src="/assets/js/origin/public/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-image: url("/assets/img/admin/login.bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer {
+    border-top: 0px solid #e8e8e8;
+    padding: 19px 0;
+    font-family: tahoma,Arial;
+    font-size: 18px;
+    color: wheat;
+    line-height: 20px;
+    text-align:center;
+    position: absolute;
+    bottom: 6px;
+    left: -20px;
+    right: 0px;
+    margin: auto;
+}
+.col-xs-8 {
+    width: 30.666667%;
+}
+.input-text.size-L, .btn.size-L {
+    height: 41px;
+    padding: 8px;
+    border-radius: 18px;
+}
+.btn.size-L{
+    margin-left:0px ;
+    margin-top: -80px;
+    width: 110px;
+    height: 40px;
+
+}
+.btn.size2{
+    margin-left: 108px;
+    background-color: #00b7ee;
+    border: 0px;
+    color: white;
+}
+.btn.size2:hover{
+    background-color: #00a2d4;
+}
+img {
+
+    border: 0;
+    height: 40px;
+    vertical-align: middle;
+    width: 110px;
+    border-radius:25px;
+    position: absolute;
+    /*left: 200px;*/
+    left: 60%;
+    right: 0px;
+    margin: auto;
+    top: -40px;
+}
+.dian{
+    position: absolute;
+    top: 10px;
+    width: 270.68px;
+    left: 58%;
+    right: 0;
+    margin: auto;
+    font-size: 14px;
+    color: #f40;
+
+}
+.header h1{
+    text-align:center ;
+    font-weight: bolder;
+    font-size: 3em;
+    position: relative;
+    left: -25px;
+    /*color: #00b7ee;*/
+    background: linear-gradient(to right, #e1f3fe,#1a2b64);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
